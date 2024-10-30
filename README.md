@@ -4,9 +4,9 @@ Abaixo se encontra uma explicação breve do que cada parte do código está faz
 # Verifica se `pergunta1` é um string vazio e também se ela é composta por apenas letras e espaços
         if pergunta1 == "" or all(nome.isalpha() for nome in pergunta1.split()):
             if pergunta1:
-                print(f"Prazer te conhecer {pergunta1} !") # Se pergunta1 não for vazio, o código imprime a mensagem
+                print(f"Prazer te conhecer {pergunta1} !")
             else:
-                print("Não foi fornecido um nome...") # Se pergunta1 for vazio, ele retorna o loop
+                print("Não foi fornecido um nome...")
                 continue
 
 # Verifica se `pergunta2` é um valor entre 7 e 90 e então Imprime uma mensagem e encerra o loop
@@ -20,7 +20,7 @@ Abaixo se encontra uma explicação breve do que cada parte do código está faz
                 print(f"{pergunta2} anos ? Acho que você está mentindo...")
                 break
                 
-        else: # Caso pergunta1 não contenha apenas letras e espaços, ele retorna o loop
+        else:
             print("Não foi fornecido um nome VÁLIDO...") 
             continue
 
