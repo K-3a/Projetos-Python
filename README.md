@@ -1,4 +1,4 @@
-# Projetos-Python
+# Input-Loop Python
 Abaixo se encontra uma explicação breve do que cada parte do código está fazendo
   
 # Verifica se `pergunta1` é um string vazio e também se ela é composta por apenas letras e espaços
@@ -27,3 +27,6 @@ Abaixo se encontra uma explicação breve do que cada parte do código está faz
 # Caso ocorra um erro de valor na `pergunta2` - como uma string ao invés de integer - ele retorna o loop
     except ValueError:
         print("Erro... Por favor, insira um número válido para a idade.")
+
+# O código completo:
+https://gist.github.com/K-3a/f7552273c33248fa0eb3aedab6f2df92
